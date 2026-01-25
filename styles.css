@@ -6,13 +6,13 @@
     font-family: Inter;
     background-color: #6b8fe7;
 }
-
+/* color themes */
 color {color: 
-  Purple: #484fb7
-    Teal: #4ca7c0
-    Lavender: #6b8fe7
-    Yellow: #e9bb57
-    Pink: #D9526F
+    --Purple: #484fb7
+    --Teal: #4ca7c0
+    --Lavender: #6b8fe7
+    --Yellow: #e9bb57
+    --Pink: #D9526F
 }
 /* GLOBAL STYLES (mobile first/small) */
 
