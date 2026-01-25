@@ -3,7 +3,7 @@
 /* CSS RESET */
 /* ROOT VARIABLES */
 :root {
-    font-family: Inter;
+    font-family: @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
     background-color: #6b8fe7;
 }
 /* color themes */
@@ -41,4 +41,18 @@ h3 {
 
 h4 {
     font-size: .15em
+}
+/* Footer */
+.footer {
+    background: #f4c430;
+    padding: 22px 20px;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+} 
+
+.footer a {
+    color: #f4c430;
+    text-decoration: none;
+    margin-left: 5px;
 }
