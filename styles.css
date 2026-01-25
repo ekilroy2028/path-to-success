@@ -16,6 +16,34 @@ color {
 }
 /* GLOBAL STYLES (mobile first/small) */
 
+/* header- main */
+
+.container {
+    max-width: 480px;
+    margin: 0 auto;
+    background: #484fb7;
+}
+
+
+.header {
+    background: #484fb7;
+    padding: 40px 20px;
+    text-align: center;
+    color: white;
+}
+
+.header hd1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.header p {
+    font-size: 14px;
+    opacity: 0.95;
+}
+
+
 /* Menu */
 
 .menu {
