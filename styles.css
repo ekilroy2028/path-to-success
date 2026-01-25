@@ -23,7 +23,7 @@ color {
 
 body {
     font-fmily: @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
-    background: #484fb7;
+    background: #6b8fe7;
     min-height: 100vh;
     padding: 0;
 }
@@ -49,7 +49,7 @@ body {
     color: white;
 }
 
-.header hd1 {
+.header h1 {
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 8px;
@@ -111,12 +111,6 @@ body {
 
 
 
-.header {
-    background: #e9bb57;
-    padding: 40px 20px;
-    text-align: center;
-    color: white;
-}
 
 
 
