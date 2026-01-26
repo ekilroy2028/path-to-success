@@ -35,7 +35,7 @@ body {
 /* header- main */
 
 .container {
-    max-width: 480px;
+    max-width: 400px;
     margin: 0 auto;
     background: #484fb7;
 }
@@ -65,8 +65,7 @@ body {
 .menu {
     max-width: 400vw;
     background: #f4c430;
-    margin: 20px;
-    border-radius: 8px;
+    margin: 0px;
     overflow: hidden;
 }
 
