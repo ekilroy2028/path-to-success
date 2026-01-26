@@ -126,6 +126,27 @@ h2 {
 }
 
 
+/* services */
+
+.services {
+    background: #484fb7;
+    padding: 40px 20px;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 1.15em;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 700;
+}
+
 /* Section headers */
 
 .section-header {
@@ -154,34 +175,6 @@ h2 {
 
 
 
-
-
-
-h1, h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-h1 {
-    font-size: 3em;
-}
-
-nav, h2 {
-    font-size: 1.5em;
-}
-
-h2 {
-    font-size: 2em;
-}
-
-h3 {
-    font-size: .5em
-}
-
-h4 {
-    font-size: .15em
-}
-
-
 /* Take 1st Step */
 
 .take-section {
@@ -194,7 +187,7 @@ h4 {
     overflow: hidden;
 }
 
-.take-section h2 {
+.take-section h3 {
     font-family: 'kavoon', Arial, Helvetica, sans-serif;
     font-size: 1.5em;
     margin: 10px;
