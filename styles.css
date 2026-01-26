@@ -165,9 +165,10 @@ h4 {
 
 .take-section{
     max-width: 400vw;
+    min-height: 200px;
     background-color: #d9526f;
     margin: 20px 0;
-    overflow: hidden;
+
 }
 
 .take-title {
@@ -183,17 +184,24 @@ h4 {
 }
 
 .take-button {
-    max-width: 300vw;
+    width: 350px;
+    align-items: center;
     background: white;
     color: rgb(24, 3, 3);
     padding: 16px 45px;
+    margin: 5px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
     font-size: 16px;
     font-weight: 700;
+    box-shadow: 0 4px 4px 0 black;
 
-    align-items: center;
+}
 
+.take-button:hover {
+    color: teal;
 }
 
 
@@ -201,7 +209,7 @@ h4 {
 
 .footer {
     background: #f4c430;
-    padding: 22px 20px;
+    padding: 22px 25px;
     text-align: center;
     color: white;
     font-size: 13px;
