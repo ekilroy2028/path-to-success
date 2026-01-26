@@ -19,15 +19,27 @@
     --Pink: #D9526F
 }
 
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     font-family: 'Inter', sans-serif;
     background: #6b8fe7;
     min-height: 100vh;
+    color: #484fb7;
     padding: 0;
 }
 
+p {
+    margin: 10px;
+}
+
+h2 {
+    margin: 10px;
+}
 
 
 
@@ -189,7 +201,7 @@ h4 {
     background: white;
     color: rgb(24, 3, 3);
     padding: 16px 45px;
-    margin: 5px 20px;
+    margin: 7px 20px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
