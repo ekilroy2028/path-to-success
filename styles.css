@@ -163,16 +163,35 @@ h4 {
 
 /* Take 1st Step */
 
-.Take {
+.take-section{
     max-width: 400vw;
     background-color: #d9526f;
     margin: 20px 0;
     overflow: hidden;
 }
 
+.take-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.take-description {
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 26px;
+}
+
 .take-button {
     max-width: 300vw;
+    background: white;
     color: rgb(24, 3, 3);
+    padding: 16px 45px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+
     align-items: center;
 
 }
