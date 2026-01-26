@@ -167,13 +167,13 @@ h4 {
     max-width: 400vw;
     min-height: 200px;
     background-color: #d9526f;
+    color: white;
+/*     padding: 40px; */
     margin: 20px 0;
-
+    overflow: hidden;
 }
 
 .take-title {
-    font-size: 20px;
-    font-weight: 700;
     margin-bottom: 18px;
 }
 
