@@ -240,8 +240,59 @@ h4 {
 }
 
 
+/* Prices */
+.price {
+    background: #484fb7;
+    padding: 40px 20px;
+}
 
+.price-cat {
+    margin-bottom: 30px;
+}
 
+.price-cat h3{
+    color: white;
+    margin-bottom: 15px;
+}
+
+.price-table {
+    background: white;
+
+}
+.price-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #e9bb57;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+.price-header div {
+    padding: 12px 20px;
+}
+
+.price-row {
+    padding: 12px 20px;
+    font-size: 0.95em;
+}
+
+.price-row:last-child {
+    border-bottom: none;
+}
+
+.price-row div {
+    padding: 12px 20px;
+    font-size: 0.95em;
+}
+
+.price-row div:first-child {
+    font-weight: 500;
+}
+
+.price-row div:last-child {
+    text-align: right;
+    font-weight: 600;
+}
 
 
 
