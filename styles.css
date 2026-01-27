@@ -197,6 +197,48 @@ h4 {
     display: block;
 }
 
+/* Why Choose Us */
+
+.why {
+    background: #d9526f;
+    padding: 40px 20px;
+}
+
+.why section-title {
+    text-align: center;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.feature-box {
+    padding: 30px 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1em;
+    color: black;
+}
+
+.feature-box:nth-child(1) {
+    background: #4ca7c0;
+}
+
+.feature-box:nth-child(2) {
+    background: #6b8fe7;
+}
+
+.feature-box:nth-child(3) {
+    background: #e9bb57;
+}
+.feature-box:nth-child(4) {
+    background: white;
+}
+
 
 
 
