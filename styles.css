@@ -117,6 +117,13 @@ nav li:hover {
     margin-bottom: 30px;
 }
 
+article {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
 
 #services h3 {
     font-family: 'inter', Arial, Helvetica, sans-serif;
@@ -232,7 +239,6 @@ nav li:hover {
     font-family: 'Kavoon', Arial, Helvetica, sans-serif;
     font-size: 2em;
     color: white;
-    margin-bottom: 30px;
 }
 
 #price article {
@@ -243,7 +249,7 @@ nav li:hover {
     font-family: 'inter', Arial, Helvetica, sans-serif;
     font-size: 1.2em;
     color: var(--Yellow);
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     font-weight: 600;
 }
 
@@ -265,12 +271,13 @@ nav li:hover {
     font-weight: 700;
     font-size: 0.09em;
     text-transform: uppercase;
+    border-right: 3px solid var(--Yellow);
 }
 
 #price td {
     padding: 12px 20px;
     font-size: 0.95em;
-    border-bottom: 1px solid;
+    border-bottom: 3px solid;
     stroke-width: 10px;
 }
 
