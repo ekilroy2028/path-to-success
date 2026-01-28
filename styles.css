@@ -124,6 +124,7 @@ nav li:hover {
 }
 
 article {
+    background-color: white;
     border-radius: 8px;
     padding: 10px;
     margin-bottom: 20px;
@@ -191,7 +192,7 @@ article {
 
 #why {
     background: var(--Pink);
-    padding: 40px 20px;
+    padding: 20px;
 }
 
 .why h2 {
@@ -237,7 +238,7 @@ article {
 /* Prices */
 #price {
     background: var(--Purple);
-    padding: 40px 20px;
+    padding: 20px;
 }
 
 #price h2{
@@ -254,6 +255,7 @@ article {
     font-family: 'inter', Arial, Helvetica, sans-serif;
     font-size: 1.2em;
     color: var(--Yellow);
+    margin-top: 10px;
     margin-bottom: 10px;
     font-weight: 600;
 }
