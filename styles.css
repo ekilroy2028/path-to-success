@@ -177,13 +177,17 @@ nav li:hover {
 
 /* Why Choose Us */
 
-.why {
-    background: #d9526f;
+#why {
+    background: var(--Pink);
     padding: 40px 20px;
 }
 
-.why section-title {
+.why h2 {
+    font-family: 'Kavoon', Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: white;
     text-align: center;
+    margin-bottom: 15px;
 
 }
 
@@ -191,28 +195,28 @@ nav li:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
-    margin-top: 25px;
+    list-style: none;
 }
 
-.feature-box {
-    padding: 30px 20px;
+.feature-grid li {
+    padding: 30px 15px;
     border-radius: 8px;
     text-align: center;
     font-weight: 600;
-    font-size: 1em;
+    font-size: 0.95em;
     color: black;
 }
 
 .feature-box:nth-child(1) {
-    background: #4ca7c0;
+    background: var(--Teal);
 }
 
 .feature-box:nth-child(2) {
-    background: #6b8fe7;
+    background: var(--Lavender);
 }
 
 .feature-box:nth-child(3) {
-    background: #e9bb57;
+    background: var(--Yellow);
 }
 .feature-box:nth-child(4) {
     background: white;
@@ -220,63 +224,68 @@ nav li:hover {
 
 
 /* Prices */
-.price {
-    background: #484fb7;
+#price {
+    background: var(--Purple);
     padding: 40px 20px;
 }
 
-.price-cat {
+#price h2{
+    font-family: 'Kavoon', Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: white;
     margin-bottom: 30px;
 }
 
-.price-cat h3{
-    color: #e9bb57;
-    max-height: 1em;
+#price article {
+    margin-bottom: 30px;
 }
 
-.price-table {
-    background: white;
-    width: 275px;
-    height: 175px;
-    overflow: hidden;
-
-}
-.price-header {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background: #e9bb57;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 0.9em;
-}
-.price-header div {
-    padding: 12px 20px;
-}
-
-.price-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    border-bottom: 1px solid #e9bb57;
-}
-
-.price-row:last-child {
-    border-bottom: none;
-}
-
-.price-row div {
-    padding: 12px 20px;
-    font-size: 0.95em;
-}
-
-.price-row div:first-child {
-    font-weight: 500;
-}
-
-.price-row div:last-child {
-    text-align: right;
+#price h3{
+    font-family: 'inter', Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: var(--Yellow);
+    margin-bottom: 15px;
     font-weight: 600;
 }
 
+#price table {
+    background: white;
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#price thead {
+    background: var(--Yellow);
+}
+
+#price th {
+    padding: 12px 20px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 0.09em;
+    text-transform: uppercase;
+}
+
+#price td {
+    padding: 12px 20px;
+    font-size: 0.95em;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+#price-tbody tr:first-child td {
+    border-bottom: none;
+}
+
+#price td:first-child {
+    font-weight: 500;
+}
+
+#price td:last-child {
+    text-align: right;
+    font-weight: 600;
+}
 
 
 /* Take 1st Step */
