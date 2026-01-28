@@ -4,6 +4,7 @@
 
 /* CSS RESET */
 * {
+    max-width: 400vw;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -66,7 +67,7 @@ nav {
 
 nav h2 {
     font-family: 'inter', Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
+    font-size: 2em;
     text-align: center;
     padding: 15px;
     margin: 0;
@@ -127,7 +128,6 @@ nav li:hover {
 
 #service article {
     background: white;
-    border-radius: 8px;
     padding: 20px;
     margin-bottom: 20px;
 }
@@ -200,7 +200,6 @@ nav li:hover {
 
 .feature-grid li {
     padding: 30px 15px;
-    border-radius: 8px;
     text-align: center;
     font-weight: 600;
     font-size: 0.95em;
@@ -252,12 +251,12 @@ nav li:hover {
     background: white;
     width: 100%;
     border-collapse: collapse;
-    border-radius: 8px;
     overflow: hidden;
 }
 
 #price thead {
     background: var(--Yellow);
+    stroke: var(--Yellow);
 }
 
 #price th {
@@ -271,7 +270,8 @@ nav li:hover {
 #price td {
     padding: 12px 20px;
     font-size: 0.95em;
-    border-bottom: 1px solid #f0f0f0;
+    border-bottom: 1px solid;
+    stroke-width: 10px;
 }
 
 #price-tbody tr:first-child td {
@@ -290,54 +290,40 @@ nav li:hover {
 
 /* Take 1st Step */
 
-.take-section {
+#take {
     max-width: 400vw;
-
-    background-color: #d9526f;
+    background: var(--Pink);
+    padding: 40px 20px;
+    text-align: center;
     color: white;
-/*     padding: 40px; */
-    margin: 15px 0;
-    overflow: hidden;
 }
 
-.take-section h3 {
+#take h2 {
     font-family: 'kavoon', Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
-    margin: 10px;
+    font-size: 2em;
+    margin: 20px;
 }
 
-.take-title {
-    margin-bottom: 18px;
-}
-
-.take-description {
-    font-family: 'kavoon', Arial, Helvetica, sans-serif;
-    font-size: 14px;
+#take p {
+    font-size: 0.95em;
     line-height: 1.7;
+    margin-bottom: 25px;
 }
 
-.take-description p {
-    margin: 10px;
-}
-
-.take-button {
-    width: 350px;
-    align-items: center;
+#take button {
     background: white;
-    color: rgb(24, 3, 3);
+    color: black;
     padding: 16px 45px;
-    margin: 7px 20px;
     border: none;
-    border-radius: 10px;
+    border-radius: 8px;
     cursor: pointer;
-    transition: transform 0.2s;
     font-size: 16px;
     font-weight: 700;
-    box-shadow: 0 4px 4px 0 black;
-
+    box-shadow: 0 4px 6px 0 black;
+    transition: transform 0.2s;
 }
 
-.take-button:hover {
+#take button:hover {
     color: teal;
 }
 
