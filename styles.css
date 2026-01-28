@@ -114,14 +114,14 @@ nav li:hover {
     font-family: 'kavoon', Arial, Helvetica, sans-serif;
     font-size: 2em;
     color: white;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 article {
     background: white;
-    padding: 20px;
+    padding: 15px;
     margin-bottom: 20px;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 
@@ -129,7 +129,9 @@ article {
     font-family: 'inter', Arial, Helvetica, sans-serif;
     font-size: 1.3em;
     color: var(--Yellow);
-    margin-bottom: 30px 0 20px 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
     font-weight: 600;
 }
 
