@@ -195,11 +195,12 @@ article {
     padding: 20px;
 }
 
-.why h2 {
+#why h2 {
     font-family: 'Kavoon', Arial, Helvetica, sans-serif;
+    color: white;
     font-size: 2em;
     color: white;
-    text-align: center;
+    text-align: left;
     margin-bottom: 15px;
 
 }
@@ -212,6 +213,8 @@ article {
 }
 
 .feature-grid li {
+    font-family: 'inter', Arial, Helvetica, sans-serif;
+    text-align: center;
     padding: 30px 15px;
     text-align: center;
     font-weight: 600;
@@ -221,17 +224,21 @@ article {
 
 .feature-box:nth-child(1) {
     background: var(--Teal);
+    border-radius: 8px;
 }
 
 .feature-box:nth-child(2) {
     background: var(--Lavender);
+    border-radius: 8px;
 }
 
 .feature-box:nth-child(3) {
     background: var(--Yellow);
+    border-radius: 8px;
 }
 .feature-box:nth-child(4) {
     background: white;
+    border-radius: 8px;
 }
 
 
