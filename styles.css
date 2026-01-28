@@ -45,11 +45,10 @@ header {
     color: white;
 }
 
-h1 {
+header h1 {
     font-family: 'kavoon', Arial, Helvetica, sans-serif;
-    font-size: 3em;
-    font-weight: 700;
-    align-items: center;
+    font-size: 2.5em;
+    font-weight: 400;
     margin-bottom: 8px;
 }
 
@@ -59,55 +58,51 @@ h1 {
 }
 
 
-/* Menu */
+/* Nav Menu */
 
-.menu {
-    max-width: 400vw;
-    background: #f4c430;
+nav {
+    background: var(--Yellow);
     margin: 20px 0px;
-    overflow: hidden;
+    padding: 0;
 }
 
-.menu ul {
-    list-style: none;
-}
 
-.menu h2 {
+nav h2 {
     font-family: 'inter', Arial, Helvetica, sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
-    margin-bottom: 20px;
-}
-
-.menu-title {
-    background: #f4c430;
-    padding: 12px;
-    text-align: center;
-    font-family: inter,'Times New Roman', Times, serif;
-    font-weight: 700;
-    font-size: 14px;
+    padding: 15px;
+    margin: 0;
+    background: var(--Yellow);
     color: black;
 }
 
-.menu-item {
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
     background: white;
-    padding: 5px 0;
     margin: 10px;
     text-align: center;
+}
+
+nav a {
+    display: block;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
     font-weight: 600;
     font-size: 13px;
-    color: #484fb7;
-    border-bottom: 1px solid #f0f0f0;
-
+    color: var(--Purple);
 }
 
-.menu-item:hover {
+
+nav li:hover {
     background: #f8f8f8
     }
-
-.menu-item:last-child {
-    border-bottom: none;
-}
 
 
 /* services */
