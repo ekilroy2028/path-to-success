@@ -10,6 +10,12 @@
     box-sizing: border-box;
 }
 
+.container {
+    max-width: 400vw;
+    margin: 0 auto;
+    background: var(--Yellow);
+}
+
 /* ROOT VARIABLES */
 :root {
     --Purple: #484fb7;
@@ -61,7 +67,6 @@ header h1 {
 
 nav {
     background: var(--Yellow);
-    margin: 20px 0px;
     padding: 0;
 }
 
@@ -69,7 +74,7 @@ nav h2 {
     font-family: 'inter', Arial, Helvetica, sans-serif;
     font-size: 2em;
     text-align: center;
-    padding: 15px;
+    padding: 15px 0 0 0;
     margin: 0;
     background: var(--Yellow);
     color: black;
@@ -84,6 +89,7 @@ nav ul {
 nav li {
     background: white;
     margin: 10px;
+    padding: 11px;
     text-align: center;
 }
 
@@ -118,11 +124,10 @@ nav li:hover {
 }
 
 article {
-    background: white;
-    padding: 15px;
+    border-radius: 8px;
+    padding: 10px;
     margin-bottom: 20px;
 }
-
 
 #services h3 {
     font-family: 'inter', Arial, Helvetica, sans-serif;
@@ -130,7 +135,6 @@ article {
     color: var(--Yellow);
     margin-top: 10px;
     margin-bottom: 10px;
-
     font-weight: 600;
 }
 
@@ -255,34 +259,36 @@ article {
 }
 
 #price table {
-    background: white;
+    background:var(--Yellow);
     width: 100%;
     border-collapse: collapse;
-    overflow: hidden;
+/*     overflow: hidden; */
 }
 
 #price thead {
-    background: var(--Yellow);
+    background:white;
     stroke: var(--Yellow);
 }
 
+
 #price th {
+    background: var(--Yellow);
     padding: 12px 20px;
-    text-align: left;
     font-weight: 700;
     font-size: 0.09em;
     text-transform: uppercase;
-    border-right: 3px solid var(--Yellow);
+
 }
 
 #price td {
+    background: white;
     padding: 12px 20px;
     font-size: 0.95em;
-    border-bottom: 3px solid;
-    stroke-width: 10px;
+
 }
 
 #price-tbody tr:first-child td {
+    font-size: 1.5em;
     border-bottom: none;
 }
 
@@ -342,6 +348,7 @@ article {
     font-family: 'inter', Arial, Helvetica, sans-serif;
     padding: 22px 25px;
     text-align: center;
+    background-color: var(--Purple);
     color: white;
     font-size: 13px;
 } 
