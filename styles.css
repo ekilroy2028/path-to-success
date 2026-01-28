@@ -18,7 +18,6 @@
     --Pink: #D9526F;
 }
 
-
 body {
     font-family: 'Inter', sans-serif;
     background: var(--Lavender);
@@ -27,7 +26,6 @@ body {
     padding: 0;
     max-width: 400px;
 }
-
 
 body > * {
     background: var(--Purple);
@@ -65,7 +63,6 @@ nav {
     margin: 20px 0px;
     padding: 0;
 }
-
 
 nav h2 {
     font-family: 'inter', Arial, Helvetica, sans-serif;
@@ -107,55 +104,53 @@ nav li:hover {
 
 /* services */
 
-.services {
-    background: #484fb7;
+#services {
+    background: var(--Purple);
     padding: 40px 20px;
 }
 
-.section-title {
+#services h2 {
     font-family: 'kavoon', Arial, Helvetica, sans-serif;
     font-size: 2em;
     color: white;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 
-.section-subtitle {
+#services h3 {
     font-family: 'inter', Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
-    color: #e9bb57;
-    margin-bottom: 15px;
+    font-size: 1.3em;
+    color: var(--Yellow);
+    margin-bottom: 30px 0 20px 0;
+    font-weight: 600;
 }
 
-
-.service-card {
+#service article {
     background: white;
     border-radius: 8px;
-    padding: 20px 30px 20px 20px;
+    padding: 20px;
     margin-bottom: 20px;
 }
 
-.services-icon {
-    width: 80px;
-    height: 80px;
-    margin: 0 auto 20px;
+#services img {
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin: 0 0 15px 0;
 }
 
-
-
-
-h3 {
-    font-size: 1.5em;
-    margin-bottom: 15px;
-    color: white;
+#services h4 {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: var(--Purple);
     font-weight: 700;
 }
 
-h4 {
-    font-size: 1.15em;
+#services p {
+    font-size: 0.95em;
+    line-height: 1.6;
     margin-bottom: 15px;
     color: black;
-    font-weight: 700;
 }
 
 /* Section headers */
