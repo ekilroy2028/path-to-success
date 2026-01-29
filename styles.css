@@ -270,13 +270,14 @@ article {
 #price table {
     background:var(--Yellow);
     width: 100%;
-    border-collapse: collapse;
-/*     overflow: hidden; */
+    height: 1em;
+    overflow: hidden;
 }
 
 #price thead {
+    font-size: 10em;
     background:white;
-    stroke: var(--Yellow);
+    color: black;
 }
 
 
@@ -297,7 +298,7 @@ article {
 }
 
 #price-tbody tr:first-child td {
-    font-size: 1.5em;
+    font-size: 2em;
     border-bottom: none;
 }
 
