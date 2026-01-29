@@ -269,8 +269,9 @@ article {
 
 #price table {
     background:var(--Yellow);
-    width: 75%;
+    width: 70%;
     height: 1em;
+    margin: 0 auto;
     overflow: hidden;
 }
 
