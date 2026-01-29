@@ -98,8 +98,8 @@ nav a {
     padding: 12px;
     text-align: center;
     text-decoration: none;
-    font-weight: 600;
-    font-size: 13px;
+    font-size: 1.5em;
+    font-weight: 800;
     color: var(--Purple);
 }
 
@@ -269,7 +269,7 @@ article {
 
 #price table {
     background:var(--Yellow);
-    width: 100%;
+    width: 75%;
     height: 1em;
     overflow: hidden;
 }
@@ -283,7 +283,9 @@ article {
 
 #price th {
     background: var(--Yellow);
+    align-items: center;
     padding: 12px 20px;
+    align-items: center;
     font-weight: 700;
     font-size: 0.09em;
     text-transform: uppercase;
@@ -307,7 +309,8 @@ article {
 }
 
 #price td:last-child {
-    text-align: right;
+    align-items: center;
+    text-align: left;
     font-weight: 600;
 }
 
