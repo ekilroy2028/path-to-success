@@ -5,15 +5,10 @@
 /* CSS RESET */
 * {
     max-width: 400vw;
+    align-content: center;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-.container {
-    max-width: 400vw;
-    margin: 0 auto;
-    background: var(--Yellow);
 }
 
 /* ROOT VARIABLES */
@@ -28,6 +23,7 @@
 body {
     font-family: 'Inter', sans-serif;
     background: var(--Lavender);
+    align-content: center;
     min-height: 100vh;
     color: var(--Purple);
     padding: 0;
@@ -341,9 +337,10 @@ article {
 #take button {
     background: white;
     color: black;
-    padding: 16px 45px;
+    width: 350px;
+    height: 65px;
     border: none;
-    border-radius: 8px;
+    border-radius: 16px;
     cursor: pointer;
     font-size: 16px;
     font-weight: 700;
