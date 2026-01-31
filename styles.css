@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
 
 /* CSS RESET */
+
+/* GLOBAL STYLES (mobile first/small) */
 * {
     max-width: 400vw;
     align-content: center;
@@ -35,7 +37,7 @@ body > * {
 }
 
 
-/* GLOBAL STYLES (mobile first/small) */
+
 
 /* header- main */
 
@@ -119,7 +121,7 @@ nav li:hover {
     margin-bottom: 10px;
 }
 
-article {
+.service-card {
     background-color: white;
     border-radius: 8px;
     padding: 10px;
