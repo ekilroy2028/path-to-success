@@ -5,24 +5,7 @@
 /* CSS RESET */
 
 /* GLOBAL STYLES (mobile first/small) */
-* {
-    max-width: 400vw;
-    align-content: center;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-*::before,
-*::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-
-
-/* ROOT VARIABLES */
 :root {
     --Purple: #484fb7;
     --Teal: #4ca7c0;
@@ -31,30 +14,48 @@
     --Pink: #D9526F;
 }
 
+* {
+    max-width: 400vw;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* *::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ */
+
+
+/* ROOT VARIABLES */
+
+
 body {
     font-family: 'Inter', sans-serif;
     background: var(--Lavender);
-    align-content: center;
     min-height: 100vh;
+    align-content: center;
     color: var(--Purple);
     padding: 0;
     max-width: 400px;
 }
 
-body > * {
-    background: var(--Purple);
+main {
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 0;
 }
 
-
-
-
 /* header- main */
-
 header {
     background: var(--Purple);
-    padding: 40px 20px;
-    text-align: center;
     color: white;
+    text-align: center;
+    padding: 40px 20px 30px;
 }
 
 header h1 {
