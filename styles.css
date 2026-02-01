@@ -138,31 +138,61 @@ nav ul a {
     padding: 40px 20px;
 }
 
-#services h2 {
+/* #services h2 {
     font-family: 'kavoon', Arial, Helvetica, sans-serif;
     font-size: 2em;
-    color: white;
+    color: var(white);
     margin-bottom: 10px;
+} */
+
+.section-title {
+    font-family: 'kavoon', Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: var(white);
+    margin-bottom: 15px;
+}
+
+.section-subtitle {
+    font-family: 'kavoon', Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: var(--Yellow);
+    margin-bottom: 15px;
 }
 
 .service-card {
-    background-color: white;
-    text-align: center;
+    background: white;
     border-radius: 8px;
-    padding: 10px;
+    padding: 30px 25px;
     margin-bottom: 20px;
 }
 
-#services h3 {
+.service-card img {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 20px;
+}
+
+h4 {
+    font-size: 1.5em;
+    margin-bottom: 12px;
+    color: black;
+    font-weight: 700;
+}
+
+.service-card p {
+
+}
+
+/* #services h3 {
     font-family: 'inter', Arial, Helvetica, sans-serif;
     font-size: 1.3em;
     color: var(--Yellow);
     margin-top: 10px;
     margin-bottom: 10px;
     font-weight: 600;
-}
+} */
 
-#service article {
+/* #service article {
     background: white;
     padding: 20px;
     margin-bottom: 20px;
@@ -172,17 +202,17 @@ nav ul a {
     width: 60px;
     height: 60px;
     display: block;
-    margin: 0 0 15px 0;
-}
-
-#services h4 {
+    margin: 0 0 15px 0; */
+/* }
+ */
+/* #services h4 {
     font-size: 1.1em;
     margin-bottom: 10px;
     color: var(--Purple);
     font-weight: 700;
-}
+} */
 
-#services p {
+.service-card p {
     font-size: 0.95em;
     line-height: 1.6;
     margin-bottom: 15px;
