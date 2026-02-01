@@ -19,7 +19,7 @@
     align-content: center;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+/*     box-sizing: border-box; */
 }
 
 /* *::before,
@@ -41,8 +41,8 @@ body {
     align-content: center;
     color: var(--Purple);
     padding: 0;
-    max-width: 400px;
-}
+/*     max-width: 400px;
+} */
 
 main {
     max-width: 420px;
@@ -183,14 +183,14 @@ h4 {
 
 }
 
-/* #services h3 {
+h3 {
     font-family: 'inter', Arial, Helvetica, sans-serif;
-    font-size: 1.3em;
+    font-size: 1.5em;
     color: var(--Yellow);
     margin-top: 10px;
     margin-bottom: 10px;
     font-weight: 600;
-} */
+}
 
 /* #service article {
     background: white;
@@ -311,7 +311,7 @@ h4 {
 /* Prices */
 #price {
     background: var(--Purple);
-    padding: 20px;
+    padding: 40px 20px;
 }
 
 #price h2{
@@ -320,9 +320,11 @@ h4 {
     color: white;
 }
 
-#price article {
-    margin-bottom: 30px;
+#price .section-title {
+    margin-bottom: 25px;
 }
+
+
 
 #price h3{
     font-family: 'inter', Arial, Helvetica, sans-serif;
@@ -385,23 +387,22 @@ h4 {
 /* Take 1st Step */
 
 #take {
-    max-width: 400vw;
     background: var(--Pink);
-    align-content: center;
-    padding: 20px;
-    text-align: center;
-    color: white;
+    width: 400px;
+    padding: 20px 10px;
 }
 
 #take h2 {
     font-family: 'kavoon', Arial, Helvetica, sans-serif;
+
     color: white;
-    font-size: 2em;
-    margin: 20px;
+    font-size: 1.5em;
+    margin: 5px;
 }
 
 #take p {
     color: white;
+    text-align: left;
     font-size: 0.95em;
     line-height: 1.7;
     margin-bottom: 25px;
@@ -439,7 +440,7 @@ h4 {
 } 
 
 .footer a {
-    color: #f4c430;
+    color: var(--Yellow);
     text-decoration: none;
     margin-left: 5px;
 }
