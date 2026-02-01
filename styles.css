@@ -319,24 +319,28 @@ nav li:hover {
 #take {
     max-width: 400vw;
     background: var(--Pink);
-    padding: 40px 20px;
+    align-content: center;
+    padding: 20px;
     text-align: center;
     color: white;
 }
 
 #take h2 {
     font-family: 'kavoon', Arial, Helvetica, sans-serif;
+    color: white;
     font-size: 2em;
     margin: 20px;
 }
 
 #take p {
+    color: white;
     font-size: 0.95em;
     line-height: 1.7;
     margin-bottom: 25px;
 }
 
 #take button {
+    align-items: center;
     background: white;
     color: black;
     width: 350px;
