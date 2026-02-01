@@ -221,7 +221,7 @@ h4 {
 
 /* Section headers */
 
-.section-header {
+/* .section-header {
     border-bottom: none;
 }
 
@@ -239,13 +239,13 @@ h4 {
     font-weight: 600;
     margin: 0px 20px 0;
     display: block;
-}
+} */
 
 /* Why Choose Us */
 
 #why {
     background: var(--Pink);
-    padding: 20px;
+    padding: 40px 20px;
 }
 
 #why h2 {
@@ -255,17 +255,30 @@ h4 {
     color: white;
     text-align: left;
     margin-bottom: 15px;
-
 }
 
-.feature-grid {
+#why .section-title {
+    text-align: center;
+}
+
+#why ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
     list-style: none;
+    margin-top: 25px;
 }
 
-.feature-grid li {
+#why ul li {
+    padding: 30px 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1em;
+    color: var(black);
+}
+
+/* .feature-grid li {
     font-family: 'inter', Arial, Helvetica, sans-serif;
     text-align: center;
     padding: 30px 15px;
@@ -273,7 +286,7 @@ h4 {
     font-weight: 600;
     font-size: 0.95em;
     color: black;
-}
+} */
 
 .feature-box:nth-child(1) {
     background: var(--Teal);
