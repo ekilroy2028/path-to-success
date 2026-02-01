@@ -288,7 +288,7 @@ h3 {
     color: black;
 } */
 
-.feature-box:nth-child(1) {
+#feature-box:nth-child(1) {
     background: var(--Teal);
     border-radius: 8px;
 }
