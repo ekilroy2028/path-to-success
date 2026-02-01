@@ -123,6 +123,7 @@ nav li:hover {
 
 .service-card {
     background-color: white;
+    text-align: center;
     border-radius: 8px;
     padding: 10px;
     margin-bottom: 20px;
