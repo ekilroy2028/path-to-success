@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
 
 /* CSS RESET */
-/* 
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, 
 a, abbr, acronym, address, big, cite, code, 
@@ -24,7 +24,7 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-/* article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
@@ -45,11 +45,7 @@ q:before, q:after {
 table {
     border-collapse: collapse;
     border-spacing: 0;
-} */
-
-
-
-/* GLOBAL STYLES (mobile first/small) */
+}
 
 
 /* ROOT VARIABLES */
@@ -76,8 +72,7 @@ table {
     padding: 0;
 }
 
-
-/* ROOT VARIABLES */
+/* GLOBAL STYLES (mobile first/small) */
 
 
 body {
@@ -87,10 +82,12 @@ body {
     align-content: center;
     color: var(--Purple);
     padding: 0;
+    max-width: 450px;
+    margin: 0 auto;
 }
 
 main {
-    max-width: 420px;
+    max-width: 450px;
     margin: 0 auto;
     padding: 0;
 }
@@ -375,7 +372,8 @@ h3 {
 
 #take {
     background: var(--Pink);
-    width: 400px;
+    width: 100%;
+    max-width: 450px;
     padding: 12px 10px;
 }
 
@@ -404,7 +402,7 @@ h3 {
     margin: auto;
     padding: 18px 20px;
     color: black;
-    width: 300px;
+    max-width: 300px;
     border-radius: 16px;
     box-shadow: 5px 5px 0px 0 black;
 }
