@@ -185,6 +185,7 @@ nav ul a {
     padding: 40px 20px;
 }
 
+
 /* #services h2 {
     font-family: 'kavoon', Arial, Helvetica, sans-serif;
     font-size: 2em;
@@ -338,7 +339,7 @@ h3 {
     border-radius: 8px;
 }
 
-feature-box:nth-child(2) {
+.feature-box:nth-child(2) {
     background: var(--Lavender);
     border-radius: 8px;
 }
