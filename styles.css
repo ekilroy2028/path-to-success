@@ -51,6 +51,8 @@ table {
 
 /* GLOBAL STYLES (mobile first/small) */
 
+
+/* ROOT VARIABLES */
 :root {
     --Purple: #484fb7;
     --Teal: #4ca7c0;
@@ -74,7 +76,6 @@ table {
     margin: 0;
     padding: 0;
 }
-
 
 
 /* ROOT VARIABLES */
@@ -139,6 +140,7 @@ nav {
 nav h2 {
     font-family: 'inter', Arial, Helvetica, sans-serif;
     font-size: 1.5em;
+    font-style: italic;
     text-align: center;
     padding: 15px 0 0 0;
     margin-bottom: 20px;
@@ -218,7 +220,7 @@ nav ul a {
 }
 
 h4 {
-    font-size: 1.5em;
+    font-size: 1.15em;
     margin-bottom: 12px;
     color: var(--Purple);
     font-weight: 700;
@@ -371,7 +373,7 @@ feature-box:nth-child(2) {
 
 #price h3{
     font-family: 'inter', Arial, Helvetica, sans-serif;
-    font-size: 1.2em;
+    font-size: 1.5em;
     color: var(--Yellow);
     margin-top: 10px;
     margin-bottom: 10px;
@@ -437,9 +439,8 @@ feature-box:nth-child(2) {
 
 #take h2 {
     font-family: 'kavoon', Arial, Helvetica, sans-serif;
-
     color: white;
-    font-size: 1.5em;
+    font-size: 2em;
     margin: 5px;
 }
 
@@ -451,35 +452,35 @@ feature-box:nth-child(2) {
     margin-bottom: 25px;
 }
 
-#take button {
+#take .now {
+    font-family: 'inter', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+
     align-items: center;
     background: white;
+    padding: 18px 20px;
     color: black;
     width: 350px;
     height: 65px;
-    border: none;
     border-radius: 16px;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: 700;
     box-shadow: 0 4px 6px 0 black;
     transition: transform 0.2s;
 }
 
-#take button:hover {
-    color: teal;
-}
 
 
 /* Footer */
 
 .footer {
     font-family: 'inter', Arial, Helvetica, sans-serif;
-    padding: 22px 25px;
+    padding: 15px 20px;
     text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
     background-color: var(--Purple);
     color: white;
-    font-size: 13px;
+    font-size: 25px;
 } 
 
 .footer a {
