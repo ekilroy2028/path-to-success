@@ -164,7 +164,7 @@ nav ul a {
 
 #service {
     background: var(--Purple);
-    padding: 40px 20px;
+    padding: 20px 20px;
 }
 
 
@@ -176,7 +176,7 @@ nav ul a {
 }
 
 .section-subtitle {
-    font-family: 'kavoon', Arial, Helvetica, sans-serif;
+    font-family: 'inter', Arial, Helvetica, sans-serif;
     font-size: 1.5em;
     color: var(--Yellow);
     margin-bottom: 15px;
