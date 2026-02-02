@@ -228,7 +228,9 @@ h3 {
 
 #why {
     background: var(--Pink);
-    padding: 40px 20px;
+    margin: auto;
+    padding: 0 15px 10px 15px;
+
 }
 
 #why h2 {
@@ -236,12 +238,13 @@ h3 {
     color: white;
     font-size: 2em;
     color: white;
+    margin: 8px 2px;
     text-align: left;
-    margin-bottom: 15px;
+
 }
 
 #why .section-title {
-    text-align: center;
+    text-align: left;
 }
 
 #why ul {
@@ -249,12 +252,13 @@ h3 {
     grid-template-columns: 1fr 1fr;
     gap: 15px;
     list-style: none;
-    margin-top: 25px;
+    margin: 5px;
 }
 
 #why ul li {
     padding: 30px 20px;
     border-radius: 8px;
+    align-content: baseline;
     text-align: center;
     font-weight: 600;
     font-size: 1em;
@@ -285,7 +289,7 @@ h3 {
 /* Prices */
 #price {
     background: var(--Purple);
-    padding: 40px 20px;
+    padding: 10px;
 }
 
 #price h2{
@@ -363,7 +367,7 @@ h3 {
 #take {
     background: var(--Pink);
     width: 400px;
-    padding: 20px 10px;
+    padding: 12px 10px;
 }
 
 #take h2 {
@@ -410,7 +414,11 @@ h3 {
 } 
 
 .footer a {
-    color: var(--Yellow);
-    text-decoration: none;
+    color: white;
+    text-decoration: underline;
     margin-left: 5px;
+}
+
+small {
+    margin: 0px;
 }
