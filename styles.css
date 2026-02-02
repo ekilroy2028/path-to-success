@@ -164,7 +164,7 @@ nav ul a {
 
 #service {
     background: var(--Purple);
-    padding: 20px 20px;
+    padding: auto;
 }
 
 
@@ -184,9 +184,11 @@ nav ul a {
 
 .service-card {
     background: white;
+    align-items: center;
     border-radius: 8px;
-    padding: 30px 25px;
-    margin-bottom: 20px;
+    padding: 15px 10px;
+    gap: 10px;
+
 }
 
 .service-card img {
@@ -208,6 +210,7 @@ h3 {
     font-size: 1.5em;
     color: var(--Yellow);
     margin-top: 10px;
+    margin-left: 10px;
     margin-bottom: 10px;
     font-weight: 600;
 }
