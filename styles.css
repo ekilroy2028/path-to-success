@@ -288,12 +288,12 @@ h3 {
     color: black;
 } */
 
-#feature-box:nth-child(1) {
+.feature-box:nth-child(1):nth-child(1) {
     background: var(--Teal);
     border-radius: 8px;
 }
 
-.feature-box:nth-child(2) {
+feature-box:nth-child(2) {
     background: var(--Lavender);
     border-radius: 8px;
 }
