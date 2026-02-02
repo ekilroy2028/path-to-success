@@ -15,7 +15,7 @@
 }
 
 * {
-    max-width: 400vw;
+    max-width: 100%;
     align-content: center;
     margin: 0;
     padding: 0;
@@ -110,7 +110,7 @@ nav ul {
 }
 
 nav ul li {
-    background: var(white);
+    background: white;
     padding: 12px 20px;
     text-align: center;
     font-weight: 600; 
@@ -120,7 +120,7 @@ nav ul li {
 }
 
 nav ul a {
-    background: var(white);
+    background: white;
     text-decoration: none;
     display: block;
 }
@@ -133,7 +133,7 @@ nav ul a {
 
 /* services */
 
-#services {
+#service {
     background: var(--Purple);
     padding: 40px 20px;
 }
@@ -148,7 +148,7 @@ nav ul a {
 .section-title {
     font-family: 'kavoon', Arial, Helvetica, sans-serif;
     font-size: 2em;
-    color: var(white);
+    color: white;
     margin-bottom: 15px;
 }
 
@@ -179,9 +179,6 @@ h4 {
     font-weight: 700;
 }
 
-.service-card p {
-
-}
 
 h3 {
     font-family: 'inter', Arial, Helvetica, sans-serif;
@@ -275,7 +272,7 @@ h3 {
     text-align: center;
     font-weight: 600;
     font-size: 1em;
-    color: var(black);
+    color: black;
 }
 
 /* .feature-grid li {
